@@ -12,8 +12,8 @@
 const users = [];
 
 const siteConfig = {
-    title: 'Portfolio', // Title for your website.
-    tagline: 'Technology is dumb',
+    title: 'JTCSC Portfolio',
+    tagline: 'An empty portfolio',
     url: 'https://github.com/jtcsc154', // Your website URL
     baseUrl: '/tech-portfolio/', // Base URL for your project */
 
