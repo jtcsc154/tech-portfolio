@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+
+
 INPUT_BRANCH=${INPUT_BRANCH:-gh-pages}
 INPUT_DIRECTORY=${INPUT_DIRECTORY:-'website/build/tech-portfolio'}
 
