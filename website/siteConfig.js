@@ -12,21 +12,14 @@
 const users = [];
 
 const siteConfig = {
-    title: 'Tonya A. Melvin-Bryant', // Title for your website.
-    tagline: 'Continuously improving, aspiring technologist.',
-    profilePhoto: 'img/profile.png',
-    url: 'https://tamelvinbryant.github.io', // Your website URL
+    title: 'Portfolio', // Title for your website.
+    tagline: 'Technology is dumb',
+    url: 'https://github.com/jtcsc154', // Your website URL
     baseUrl: '/tech-portfolio/', // Base URL for your project */
-    // For github.io type URLs, you would set the url and baseUrl like:
-    //   url: 'https://facebook.github.io',
-    //   baseUrl: '/test-site/',
 
     // Used for publishing and more
     projectName: 'tech-portfolio',
-    organizationName: 'tamelvinbryant',
-    // For top-level user or org sites, the organization is still the same.
-    // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-    //   organizationName: 'JoelMarcey'
+    organizationName: 'No organization',
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
@@ -60,21 +53,16 @@ const siteConfig = {
 
     // On page navigation for the current documentation page.
     onPageNav: 'separate',
-    // No .html extensions for paths.
     cleanUrl: true,
 
     // Show documentation's last update time.
     enableUpdateTime: true,
 
     socialMedia: {
-        linkedin: 'tonya-melvin-bryant-ab92b855',
-        twitter: 'tonyamccu',
-        github: 'tamelvinbryant',
+        linkedin: '',
+        twitter: '',
+        github: 'jtcsc156',
     },
-
-    // You may provide arbitrary config keys to be used as needed by your
-    // template. For example, if you need your repo's URL...
-    // repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;
